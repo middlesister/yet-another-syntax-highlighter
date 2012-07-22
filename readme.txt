@@ -1,6 +1,5 @@
 === Code Highlighter ===
-Contributors: middlesister
-Donate link: http://www.invistruct.com
+Author: middlesister
 Tags: code, highlight, syntax highlighting
 Requires at least: 3.4
 Tested up to: 3.4
@@ -21,8 +20,8 @@ bash, ruby, diff, javascript, xml, markdown, css, http, java, php, python, sql, 
 == Installation ==
 
 1. Upload the `plugin` folder to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Go to Settings>Code Highlighter and select the style you want to use for your syntax highlighting 
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Go to Settings>Code Highlighter and select the style you want to use for your syntax highlighting 
 
 == Changelog ==
 
