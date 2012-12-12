@@ -57,7 +57,7 @@ pre .tag,
 pre .tag .keyword,
 pre .decorator,
 pre .shebang,
-pre .input_number {
+pre .prompt {
   color: #89BDFF;
 }
 
@@ -72,14 +72,13 @@ pre .phpdoc {
 
 pre .symbol,
 pre .ruby .symbol .string,
-pre .ruby .symbol .keyword,
-pre .ruby .symbol .keymethods,
 pre .number {
   color: #3387CC;
 }
 
 pre .params,
-pre .variable {
+pre .variable,
+pre .clojure .attribute {
   color: #3E87E3;
 }
 
@@ -146,4 +145,14 @@ pre .addition {
 pre .deletion {
   background-color: #420E09;
   color: #F8F8F8;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+  opacity: 0.5;
 }
