@@ -85,26 +85,31 @@ class Yet_Another_Syntax_Highlighter {
 				
 		
 		// register the styles
-		wp_register_style(  'yash-theme-default',			plugins_url('yet-another-syntax-highlighter/styles/default.css'),				array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-arta',				plugins_url('yet-another-syntax-highlighter/styles/arta.css'),					array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-ascetic',			plugins_url('yet-another-syntax-highlighter/styles/ascetic.css'),				array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-brown_paper',		plugins_url('yet-another-syntax-highlighter/styles/brown_paper.css'),			array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-dark',				plugins_url('yet-another-syntax-highlighter/styles/dark.css'),					array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-far',				plugins_url('yet-another-syntax-highlighter/styles/far.css'),					array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-github',			plugins_url('yet-another-syntax-highlighter/styles/github.css'),				array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-googlecode',		plugins_url('yet-another-syntax-highlighter/styles/googlecode.css'),			array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-idea',				plugins_url('yet-another-syntax-highlighter/styles/idea.css'),					array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-ir_black',			plugins_url('yet-another-syntax-highlighter/styles/ir_black.css'),				array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-magula',			plugins_url('yet-another-syntax-highlighter/styles/magula.css'),				array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-monokai',			plugins_url('yet-another-syntax-highlighter/styles/monokai.css'),				array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-pojoaque',			plugins_url('yet-another-syntax-highlighter/styles/pojoaque.css'),				array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-school_book',		plugins_url('yet-another-syntax-highlighter/styles/school_book.css'),			array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-solarized_dark',	plugins_url('yet-another-syntax-highlighter/styles/solarized_dark.css'),		array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-solarized_light',	plugins_url('yet-another-syntax-highlighter/styles/solarized_light.css'),		array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-sunburst',			plugins_url('yet-another-syntax-highlighter/styles/sunburst.css'),				array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-vs',				plugins_url('yet-another-syntax-highlighter/styles/vs.css'),					array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-xcode',				plugins_url('yet-another-syntax-highlighter/styles/xcode.css'),					array(), $this->plugin_version );
-		wp_register_style(  'yash-theme-zenburn',			plugins_url('yet-another-syntax-highlighter/styles/zenburn.css'),				array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-default',					plugins_url('yet-another-syntax-highlighter/styles/default.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-arta',						plugins_url('yet-another-syntax-highlighter/styles/arta.css'),						array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-ascetic',					plugins_url('yet-another-syntax-highlighter/styles/ascetic.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-brown_paper',				plugins_url('yet-another-syntax-highlighter/styles/brown_paper.css'),				array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-dark',						plugins_url('yet-another-syntax-highlighter/styles/dark.css'),						array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-far',						plugins_url('yet-another-syntax-highlighter/styles/far.css'),						array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-github',					plugins_url('yet-another-syntax-highlighter/styles/github.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-googlecode',				plugins_url('yet-another-syntax-highlighter/styles/googlecode.css'),				array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-idea',						plugins_url('yet-another-syntax-highlighter/styles/idea.css'),						array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-ir_black',					plugins_url('yet-another-syntax-highlighter/styles/ir_black.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-magula',					plugins_url('yet-another-syntax-highlighter/styles/magula.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-monokai',					plugins_url('yet-another-syntax-highlighter/styles/monokai.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-pojoaque',					plugins_url('yet-another-syntax-highlighter/styles/pojoaque.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-school_book',				plugins_url('yet-another-syntax-highlighter/styles/school_book.css'),				array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-solarized_dark',			plugins_url('yet-another-syntax-highlighter/styles/solarized_dark.css'),			array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-solarized_light',			plugins_url('yet-another-syntax-highlighter/styles/solarized_light.css'),			array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-sunburst',					plugins_url('yet-another-syntax-highlighter/styles/sunburst.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-tomorrow',					plugins_url('yet-another-syntax-highlighter/styles/ir_black.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-tomorrow-night',			plugins_url('yet-another-syntax-highlighter/styles/tomorrow.css'),					array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-tomorrow-night-blue',		plugins_url('yet-another-syntax-highlighter/styles/tomorrow-night-blue.css'),		array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-tomorrow-night-bright',		plugins_url('yet-another-syntax-highlighter/styles/tomorrow-night-bright.css'),		array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-tomorrow-night-eighties',	plugins_url('yet-another-syntax-highlighter/styles/tomorrow-night-eighties.css'),	array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-vs',						plugins_url('yet-another-syntax-highlighter/styles/vs.css'),						array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-xcode',						plugins_url('yet-another-syntax-highlighter/styles/xcode.css'),						array(), $this->plugin_version );
+		wp_register_style(  'yash-theme-zenburn',					plugins_url('yet-another-syntax-highlighter/styles/zenburn.css'),					array(), $this->plugin_version );
 		
 		
 		// Create array of default settings (you can use the filter to modify these)
@@ -121,27 +126,32 @@ class Yet_Another_Syntax_Highlighter {
 		// Create list of themes and their human readable names
 		// Plugins can add to this list: http://www.viper007bond.com/wordpress-plugins/syntaxhighlighter/adding-a-new-theme/
 		$this->themes = (array) apply_filters( 'yet_another_syntax_highlighter_themes', array(
-			'default'			=> 'Default',		
-			'arta'				=> 'Arta',			
-			'ascetic'			=> 'Ascetic',		
-			'brown_paper'		=> 'Brown paper',	
-			'far'				=> 'Far',			
-			'dark'				=> 'Dark',			
-			'github'			=> 'Github',		
-			'googlecode'		=> 'Google Code',	
-			'idea'				=> 'Idea',			
-			'ir_black'			=> 'IR Black',		
-			'magula'			=> 'Magula',		
-			'monokai'			=> 'Monokai',		
-			'pojoaque'			=> 'Pojoaque',		
-			'school_book'		=> 'School Book',	
-			'solarized_dark'	=> 'Solarized Dark',
-			'solarized_light'	=> 'Solarized Light',
-			'sunburst'			=> 'Sunburst',		
-			'vs'				=> 'VS',			
-			'xcode'				=> 'XCode',			
-			'zenburn'			=> 'Zenburn',		
-			'none'				=> '[None]',		
+			'default'					=> 'Default',		
+			'arta'						=> 'Arta',			
+			'ascetic'					=> 'Ascetic',		
+			'brown_paper'				=> 'Brown paper',	
+			'far'						=> 'Far',			
+			'dark'						=> 'Dark',			
+			'github'					=> 'Github',		
+			'googlecode'				=> 'Google Code',	
+			'idea'						=> 'Idea',			
+			'ir_black'					=> 'IR Black',		
+			'magula'					=> 'Magula',		
+			'monokai'					=> 'Monokai',		
+			'pojoaque'					=> 'Pojoaque',		
+			'school_book'				=> 'School Book',	
+			'solarized_dark'			=> 'Solarized Dark',
+			'solarized_light'			=> 'Solarized Light',
+			'sunburst'					=> 'Sunburst',
+			'tomorrow'					=> 'Tomorrow',
+			'tomorrow-night'			=> 'Tomorrow Night',
+			'tomorrow-night-blue'		=> 'Tomorrow Night Blue',
+			'tomorrow-night-bright'		=> 'Tomorrow Night Bright',
+			'tomorrow-night-eighties'	=> 'Tomorrow Night Eighties',
+			'vs'						=> 'VS',			
+			'xcode'						=> 'XCode',			
+			'zenburn'					=> 'Zenburn',		
+			'none'						=> '[None]',		
 		) );
 	}
 
